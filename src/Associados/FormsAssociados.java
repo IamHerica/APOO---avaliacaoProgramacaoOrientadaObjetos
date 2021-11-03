@@ -1,6 +1,6 @@
 package Associados;
 
-public class FormsAssociados {
+public abstract class FormsAssociados {
     private int id;
     private String companhia;
 
@@ -20,4 +20,6 @@ public class FormsAssociados {
     public void setCompanhia(String companhia) {
         this.companhia = companhia;
     }
+
+    public abstract void SetAdm(String admin);
 }

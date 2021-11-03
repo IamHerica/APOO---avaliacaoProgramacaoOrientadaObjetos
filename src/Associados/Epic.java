@@ -43,5 +43,10 @@ public class Epic extends FormsAssociados {
         jogoSorteadoDaSemana = "O jogo gratis da semana é: "
                 + listaJogosGratis.get(n);
     }
+
+    @Override
+    public void SetAdm(String admin) {
+        System.out.println(admin +" no comando do sistema.");
+    }
 }
 
