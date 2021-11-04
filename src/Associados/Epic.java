@@ -46,7 +46,7 @@ public class Epic extends FormsAssociados {
 
     @Override
     public void SetAdm(String admin) {
-        System.out.println(admin +" no comando do sistema.");
+        System.out.println(admin + " no comando do sistema.");
     }
 }
 

@@ -1,16 +1,14 @@
 package Associados;
 
-public abstract class FormsAssociados {
+import Interfaces.IContratoAssociados;
+
+public abstract class FormsAssociados implements IContratoAssociados {
     private int id;
     private String companhia;
 
     public FormsAssociados(int id, String companhia) {
         this.id = id;
         this.companhia = companhia;
-    }
-
-    public int getId() {
-        return id;
     }
 
     public String getCompanhia() {
